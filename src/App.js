@@ -1,9 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import CourseCard from "./CourseCard";
 
 function App() {
   return (
     <div className="App">
+      <CourseCard></CourseCard>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -13,8 +15,7 @@ function App() {
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
-          rel="noopener noreferrer"
-        >
+          rel="noopener noreferrer">
           Learn React
         </a>
       </header>

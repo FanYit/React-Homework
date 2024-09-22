@@ -1,0 +1,91 @@
+.container {
+  padding: 3px 3px;
+  margin: 5px 5px;
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  width: 160px;
+
+  .header {
+    background-image: url("../public/header.jpeg");
+    background-size: cover;
+    flex-basis: 35%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+
+    .divNew {
+      // height:18px;
+      width: 30px;
+      line-height: 18px;
+      align-items: center;
+      justify-content: center;
+      color: antiquewhite;
+      background-color: green;
+      margin: 3px 3px;
+      border-radius: 8%;
+      text-align: center;
+      font-size: 12px;
+      // line-height: 3px;
+
+      // text-align: center;
+    }
+  }
+  .main {
+    background-color: aliceblue;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .mainTitle {
+      margin-top: 10px;
+      margin-left: 6px;
+      width: 150px;
+      font-size: 12px;
+      font-weight: 600;
+      display: flex;
+      color: black;
+      flex-wrap: wrap;
+      text-align: left;
+      align-self: flex-start;
+    }
+    .mainPrice {
+      display: flex;
+      flex-direction: column;
+      font-weight: 500;
+      height: 30px;
+      flex-wrap: nowrap;
+      .pPrice {
+        line-height: 14px;
+        align-self: flex-start;
+        white-space: nowrap;
+        font-size: 10px;
+        width: 40px;
+        margin: 0 0;
+      }
+      .pLanguage {
+        align-self: flex-start;
+        flex-wrap: nowrap;
+        font-size: 10px;
+        width: 160px;
+        margin: 0 0;
+        white-space: nowrap;
+        text-align: left;
+        padding-left: 6px;
+      }
+    }
+  }
+  .footer {
+    background-color: black;
+    flex-basis: 15%;
+    color: aliceblue;
+    font-size: 10px;
+    font-weight: 500;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 6px;
+  }
+}
